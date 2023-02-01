@@ -1,0 +1,74 @@
+main {
+    padding-top: 32px;
+}
+
+.background {
+    background: url("../images/plans-background.jpg");
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+.product-explanation {
+    width: 80%;
+    background: #2ddf5c;
+    border: 4px solid #0e4f1f;
+    border-left: none;
+    margin: 16px 0;
+}
+
+.product-explanation:hover,
+.product-explanation:active {
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    border-color: #ff5454;
+}
+
+.product-explanation a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    padding: 32px;
+}
+
+.product-explanation__header {
+    color: black;
+}
+.product-explanation__slogan {
+    color: gray;
+}
+.product-explanation__better-text {
+    padding: 16px;
+    color: #0e4f1f;
+    background: white;
+    font-size: 20px;
+    border: 1px solid #0e4f1f;
+}
+
+.clearfix {
+    clear: both;
+}
+
+#plus {
+    background: rgba(213, 255, 220, 0.95);
+}
+
+#free {
+    background: rgba(234, 252, 237, 0.95);
+    float: right;
+    border-right: none;
+    border-left: 4px solid #0e4f1f;
+    text-align: right;
+}
+
+#premium {
+    background: rgba(14, 79, 31, 0.95);
+}
+
+#premium .product-explanation__header {
+    color: white;
+}
+
+#premium .product-explanation__slogan {
+    color: #bbb;
+}
