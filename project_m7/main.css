@@ -1,33 +1,25 @@
 
 
 #product-overview {
-    background-image: url("freedom.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-
-    /*    
-    background: red;
-    padding: 20px;
-    border-style: solid;
-    border-color: black;
-    border-width: 5px;
-    margin: 20px; */
+    background: url("freedom.jpg");
     width: 100%;
     height: 528px;
     padding: 10px;
+    margin-top: 43px;
     position: relative;
-    top: 43px;
 }
 
 .section-title {
     color: #2ddf5c;
-    font-family: inherit; /*Increase specificity of inheritance? */
     text-align: center;
 }
 
 #product-overview h1 {
     color: white;
     font-family: 'Anton', sans-serif;
+    position: absolute;
+    bottom: 5%;
+    left: 3%;
 }
 
 .plan__list {
@@ -37,7 +29,7 @@
 }
 
 .plan {
-    background: #2ddf5c;
+    background: #d5ffdc;
     text-align: center;
     padding: 16px;
     margin: 8px;
@@ -53,11 +45,11 @@
 }
 
 .plan__annotation {
-     background: white;
-     color: #19b84c;
-     padding: 8px;
-     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
-     border-radius: 8px; 
+    background: white;
+    color: #19b84c;
+    padding: 8px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
 }
 
 .plan__title {
@@ -72,7 +64,7 @@
     color: white;
 }
 
-.plan--highlighted .plan__price  {
+.plan--highlighted .plan__price {
     color: #0e4f1f;
 }
 
@@ -82,10 +74,9 @@
     padding: 0;
 }
 
-.plan__features li {
+.plan__feature {
     margin: 8px 0;
 }
-
 
 #key-features {
     background: #ff1b68;
@@ -114,9 +105,9 @@
 .key-feature__image {
     background: #ffcede;
     width: 128px;
+    height: 128px;
     border: 2px solid #424242;
     border-radius: 50%;
-    height: 128px;
     margin: auto;
 }
 
@@ -127,7 +118,7 @@
     font-size: 20px;
 }
 
+/* h1 {
+    font-family: sans-serif;
+} */
 
-h2 ~ p {
-    color: red;
-}
